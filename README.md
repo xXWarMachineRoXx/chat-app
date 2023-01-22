@@ -8,7 +8,10 @@
 
 ### Description 
 
-This is just a simple chat app , **It might have scaling issues** :D
+This is just a simple chat app .
+
+### Note : 
+**It might have scaling issues** 😅
 
 
 
