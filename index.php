@@ -10,6 +10,7 @@ error_reporting(E_ALL);
 
 <?php include_once "header.php"; ?>
 <body>
+<button type="button" class="btn btn-primary">Primary</button>
 
   <div class="wrapper">
     <section class="form signup">
