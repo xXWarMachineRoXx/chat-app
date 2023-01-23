@@ -3,14 +3,18 @@
   if(isset($_SESSION['unique_id'])){
     header("location: users.php");
   }
+  ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
 ?>
 
 <?php include_once "header.php"; ?>
 <body>
+
   <div class="wrapper">
     <section class="form signup">
-      <header>Realtime Chat App</header>
-      <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+      <header> Sign Up</header>
+      <form action="#" method="POST" enctype="multipart/form-data" autocomplete="on">
         <div class="error-text"></div>
         <div class="name-details">
           <div class="field input">
@@ -32,6 +36,9 @@
           <i class="fas fa-eye"></i>
         </div>
         <div class="field image">
+        <!-- <i class="fa-solid fa-image"></i> -->
+        <!-- <i class="fas fa-eye"></i> -->
+
           <label>Select Image</label>
           <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
         </div>

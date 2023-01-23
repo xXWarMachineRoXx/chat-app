@@ -11,6 +11,7 @@
             if(mysqli_num_rows($sql) > 0){
                 echo "$email - This email already exist!";
             }else{
+         
                 if(isset($_FILES['image'])){
                     $img_name = $_FILES['image']['name'];
                     $img_type = $_FILES['image']['type'];
@@ -58,4 +59,5 @@
     }else{
         echo "All input fields are required!";
     }
+echo mysqli_connect_error();
 ?>
