@@ -413,3 +413,26 @@ body{
     width: 45px;
   }
 }
+#chat-widget   {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+height: 100px;
+border-radius: 45%;
+width: 100px;
+background: black;
+border: none;
+color: white;
+bottom: 10px;
+right: 10px;
+position: fixed;
+z-index: 2;
+}
+
+svg{
+  filter:invert(1);
+  height: 50px;
+  width:  50px;
+}
