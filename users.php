@@ -7,7 +7,7 @@
 ?>
 <?php include_once "header.php"; ?>
 <body>
-  <div class="wrapper">
+  <div id='chat' class="wrapper">
     <section class="users">
       <header>
         <div class="content">
@@ -24,6 +24,7 @@
           </div>
         </div>
         <a href="php/logout.php?logout_id=<?php echo $row['unique_id']; ?>" class="logout">Logout</a>
+        <i class="fa fa-close" onclick="console.log('hello');widget_close();" style="float: right;cursor:pointer;"></i>
       </header>
       <div class="search">
         <span class="text">Select an user to start chat</span>
