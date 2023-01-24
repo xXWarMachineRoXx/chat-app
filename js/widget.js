@@ -24,6 +24,8 @@ function widget_close(){
     chat_widget.style.display='block';
 
 }
+
+
 // document.getElementById("chat").onload = function() {widget()};
 // chat.style.display="none";
 

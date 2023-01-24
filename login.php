@@ -10,7 +10,7 @@
   <div id='chat'  class="wrapper">
     <section class="form login">
       
-      <header>Chit Chat<i class="fa fa-close" onclick="console.log('hello');widget_close();" style="float: right;cursor:pointer;"></i></header>
+      <header>Chit Chat<i class="fa fa-close" onclick="widget_close();" style="float: right;cursor:pointer;"></i></header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="field input">
