@@ -6,8 +6,8 @@ var clicked=false;
 function widget_open(){
     const chat=document.getElementById('chat');
     chat.style.display='block';
-    chat.classList.add("scale-up-ver-bottom");
-    chat.classList.remove("scale-down-ver-bottom");
+    chat.classList.add("slide-in-bottom");
+    chat.classList.remove("slide-out-bottom");
 
     const chat_widget=document.getElementById('chat-widget');
     chat_widget.style.display='none';
@@ -16,9 +16,11 @@ function widget_open(){
 }
 function widget_close(){
     const chat=document.getElementById('chat');
-    chat.classList.remove("scale-down-ver-bottom");
-    chat.classList.add("scale-down-ver-bottom");
-    myTimeout = setTimeout(()=>chat.style.display='none', 500);
+    // chat.classList.remove("scale-down-ver-bottom");
+    chat.classList.remove("slide-in-bottom");
+
+    chat.classList.add("slide-out-bottom");
+    myTimeout = setTimeout(()=>chat.style.display='none', 300);
     
     const chat_widget=document.getElementById('chat-widget');
     chat_widget.style.display='block';
