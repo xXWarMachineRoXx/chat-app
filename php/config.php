@@ -1,9 +1,10 @@
 <?php
-  $hostname = "localhost";
   // $username = "root";
-  $username = "test";
+
+  $hostname = "192.168.1.80";
+  $username = "bablu";
+  $password = "admin";
   
-  $password = "";
   $dbname = "chatapp";
 
   $conn = mysqli_connect($hostname, $username, $password, $dbname);
