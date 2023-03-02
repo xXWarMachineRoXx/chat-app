@@ -1,9 +1,7 @@
 <?php
+  $hostname = "localhost";
   // $username = "root";
-
-  $hostname = "192.168.1.80";
-  $username = "bablu";
-  $password = "admin";
+  $username = "test";
   
   $dbname = "chatapp";
 
