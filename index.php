@@ -12,7 +12,7 @@ error_reporting(E_ALL);
 <body>
 <div id='chat' class="wrapper">
   <section class="form signup">
-    <header> Sign Up  <i class="fa fa-close" onclick="widget_close();" style="float: right;cursor:pointer;"></i></header>
+    <header> Sign Up </header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="on">
         <div class="error-text"></div>
         <div class="name-details">

@@ -24,7 +24,7 @@
           </div>
         </div>
         <a href="php/logout.php?logout_id=<?php echo $row['unique_id']; ?>" class="logout">Logout</a>
-        <i class="fa fa-close" onclick="widget_close();" style="float: right;cursor:pointer;"></i>
+        
       </header>
       <div class="search">
         <span class="text">Select an user to start chat</span>

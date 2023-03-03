@@ -11,9 +11,10 @@ body{
   display: flex;
   align-items: right;
   justify-content: right;
-  min-height: 100vh;
+  bottom: 10;
+  /* min-height: 100vh; */
   /* height: 10%; */
-  /* width: 10%; */
+  width: 400px;
   background-color : transparent;
   padding: 0 10px;
   position: absolute !important;
@@ -26,13 +27,15 @@ body{
 
   max-width: 450px;
   border-radius: 16px;
-  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
-              0 32px 64px -48px rgba(0,0,0,0.5);
+  box-shadow: 0 0 200px 0 rgba(0,0,0,0.02),
+              0 32px 64px -48px rgba(0,0,0,0.02);
   /* position: fixed; */
   bottom:0;
-  width: 600px;
-  margin-left: 120vh;
-  display: none;
+  width: 100%;
+  min-height: 97vh;
+
+  /* margin-left: 120vh; */
+  /* display: none; */
   
 }
 
@@ -531,4 +534,8 @@ svg{
             transform: translateY(1000px);
     opacity: 0;
   }
+}
+::-webkit-scrollbar{
+  width: 0px;
+  
 }
