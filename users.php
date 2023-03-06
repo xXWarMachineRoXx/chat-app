@@ -16,6 +16,8 @@
             if(mysqli_num_rows($sql) > 0){
               $row = mysqli_fetch_assoc($sql);
             }
+            // var_dump($row);
+            // die();
           ?>
           <img src="php/images/<?php echo $row['img']; ?>" alt="">
           <div class="details">
@@ -32,7 +34,6 @@
         <button><i class="fas fa-search"></i></button>
       </div>
       <div class="users-list">
-  
       </div>
     </section>
   </div>

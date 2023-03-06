@@ -4,8 +4,8 @@
     header("location: users.php");
   }
   ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
+  ini_set('display_startup_errors', '1');
+  error_reporting(E_ALL);
 ?>
 
 <?php include_once "header.php"; ?>
@@ -35,9 +35,6 @@ error_reporting(E_ALL);
           <i class="fas fa-eye"></i>
         </div>
         <div class="field image">
-        <!-- <i class="fa-solid fa-image"></i> -->
-        <!-- <i class="fas fa-eye"></i> -->
-
           <label>Select Image</label>
           <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
         </div>
@@ -47,7 +44,7 @@ error_reporting(E_ALL);
       </form>
       <div class="link">Already signed up? <a href="login.php">Login now</a></div>
     </section>
-  </div>
+</div>
 
   <script src="js/pass-show-hide.js"></script>
   <script src="js/signup.js"></script>
